@@ -1,0 +1,15 @@
+Python 3.9.2rc1 (tags/v3.9.2rc1:4064156, Feb 17 2021, 11:25:18) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import time
+>>> secs = time.time()
+>>> def time():
+...     mins = secs/60
+...     hours = mins/60
+...     days = hours/24
+...     print ('hours:',hours, 'minutes:', mins, 'days:',days)
+...
+>>> time()
+hours: 488976.2285889584 minutes: 29338573.715337504 days: 20374.00952453993
+>>> print ('seconds:', secs)
+seconds: 1760314422.9202502
+>>>
