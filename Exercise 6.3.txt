@@ -1,0 +1,30 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def first(word):
+...     return word[0]
+... def last(word):
+...     return word[-1]
+... def middle(word):
+...     return word[1:-1]
+... def if_palindrome(s):
+...     if s == s[::-1]:
+...         return True
+...
+>>> def first(word):
+...     return word[0]
+... def last(word):
+...     return word[-1]
+... def middle(word):
+...     return word[1:-1]
+... def if_palindrome(s):
+...     if s == s[::-1]:
+...         return True
+...     else:
+...         return False
+... print (if_palindrome("teeth"))
+...
+False
+>>> print (if_palindrome("noon"))
+True
+>>>
+>>>
