@@ -1,0 +1,19 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def check_fermat(a, b, c, n):
+...     if n > 2 and (a**n + b**n ==c**n):
+...         print ("Holy smokes, Fermat was wrong!")
+...     else:
+...         print ("No, that doesn't work")
+...
+>>> a=int(input("Input integer for a:"))
+Input integer for a:3
+>>> b=int(input("Input integer for b:"))
+Input integer for b:5
+>>> c=int(input("Input integer for c:"))
+Input integer for c:6
+>>> n=int(input("Input integer for n:"))
+Input integer for n:2
+>>> check_fermat (a,b,c,n)
+No, that doesn't work
+>>>
