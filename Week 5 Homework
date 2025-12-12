@@ -19,3 +19,22 @@ def has _no_e_percentage():
   no_e_percentage = float(no_e_count)/total_count * 100
 return no_e_percentage
 print calculate_no_e_percentage()
+
+#Exercise 10.1
+def add all(t):
+  total = 0
+  for x in t:
+    total + = x
+  return total
+
+#Exercise 10.2
+def cumsum(numbers):
+  cum_list = []
+  cum_sum = 0
+  for num in numbers:
+    cum_sum + = num
+    cum_list.append(cum_sum)
+  return cum_list
+numbers = [1,2,3,4,5]
+cumulative_sum = cumsum(numbers)
+print(cumulative_sum)
